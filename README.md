@@ -1,12 +1,4 @@
-# 🚀 Python Script to Generate README.md with HTML Formatting
-
-readme_content = """\
 <h1 align="center">🚀 Credit Card Fraud Detection using Logistic Regression</h1>
-
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Pictogram_voting_fraud.svg/1200px-Pictogram_voting_fraud.svg.png" width="200">
-</p>
-
 <h2>📌 Project Overview</h2>
 <p>
   Credit card fraud detection is crucial for financial security. This project applies <b>Logistic Regression</b> to classify transactions as fraudulent or legitimate.
@@ -30,9 +22,6 @@ pip install pandas numpy scikit-learn imbalanced-learn matplotlib seaborn joblib
 <p>Ensure <code>creditcard.csv</code> is placed in the working directory.</p>
 
 <h3>3️⃣ Run the Model</h3>
-<pre>
-python fraud_detection.py
-</pre>
 
 <h2>📊 Data Preprocessing & Feature Engineering</h2>
 <ul>
@@ -60,19 +49,27 @@ python fraud_detection.py
   </tr>
   <tr>
     <td>Accuracy</td>
-    <td><b>97%</b></td>
+    <td><b>95%</b></td>
+  </tr>
+  <tr>
+    <td>Precision</td>
+    <td><b>0.97</b></td>
+  </tr>
+  <tr>
+    <td>Recall</td>
+    <td><b>0.92</b></td>
   </tr>
   <tr>
     <td>AUC-ROC</td>
-    <td><b>0.98</b></td>
+    <td><b>0.95</b></td>
   </tr>
   <tr>
     <td>MAE</td>
-    <td><b>0.02</b></td>
+    <td><b>0.04</b></td>
   </tr>
   <tr>
     <td>MSE</td>
-    <td><b>0.01</b></td>
+    <td><b>0.04</b></td>
   </tr>
 </table>
 
@@ -96,11 +93,7 @@ python fraud_detection.py
 </table>
 
 <h2>📦 Model Deployment</h2>
-<p>To save and reuse the model:</p>
-<pre>
-import joblib
-joblib.dump(model, "fraud_detection_model.pkl")
-</pre>
+
 
 <h2>📚 References</h2>
 <ul>
@@ -109,11 +102,4 @@ joblib.dump(model, "fraud_detection_model.pkl")
 </ul>
 
 <h2>👨‍💻 Author</h2>
-<p>🚀 <b>Your Name</b> | 🌍 GitHub: <a href="https://github.com/your-profile">your-profile</a></p>
-"""
-
-# 📝 Write README.md file
-with open("README.md", "w", encoding="utf-8") as file:
-    file.write(readme_content)
-
-print("🚀 README.md file with HTML formatting has been successfully created!")
+<p>🚀 <b>Aradhana Patra</b> | 🌍 GitHub: <a href="https://github.com/aradhana-56">your-profile</a> |  🔗 LinkedIn: <a href="https://www.linkedin.com/in/aradhana-patra-8694642b5">LinkedIn</a></p>
