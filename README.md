@@ -102,4 +102,4 @@ pip install pandas numpy scikit-learn imbalanced-learn matplotlib seaborn joblib
 </ul>
 
 <h2>👨‍💻 Author</h2>
-<p>🚀 <b>Aradhana Patra</b> | 🌍 GitHub: <a href="https://github.com/aradhana-56">your-profile</a> |  🔗 LinkedIn: <a href="https://www.linkedin.com/in/aradhana-patra-8694642b5">LinkedIn</a></p>
+<p>🚀 <b>Aradhana Patra</b> | 🌍 GitHub: <a href="https://github.com/aradhana-56">GitHub</a> |  🔗 LinkedIn: <a href="https://www.linkedin.com/in/aradhana-patra-8694642b5">LinkedIn</a></p>
